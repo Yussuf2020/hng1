@@ -8,7 +8,7 @@ def home():
     now = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
     return f"""
     <h1> Welcome to My Cool Keeds App!</h1>
-    <p>This app was deployed automatically using DevOps magic.</p>
+    <p>I'll be writing a bash script for deployment and automation.</p>
     <p><strong>Current Server Time:</strong> {now}</p>
     """
 
