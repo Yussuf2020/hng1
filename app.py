@@ -7,8 +7,8 @@ app = Flask(__name__)
 def home():
     now = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
     return f"""
-    <h1> Welcome to My Cool Keeds App!</h1>
-    <p>I'll be writing a bash script for deployment and automation.</p>
+    <h1> I  welcome you to My App!</h1>
+    <p>I'll be writing a bash script for deployment and automation . </p>
     <p><strong>Current Server Time:</strong> {now}</p>
     """
 
